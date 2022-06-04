@@ -1,0 +1,26 @@
+1- Um arranjo é uma única variável que consegue armazenar vários valores. Os elementos são referenciados por um índice e, o número que é colocado entre 
+colchetes referencia os conteúdos da variável. Os arranjos podem ser unidimensionais (uma dimesnão - vetores) e bidimensionais (duas dimensões - matrizes).
+2- Matrizes são arranjos bidimensionais, ou seja, possuem dois índices e permitem que os valores sejam armazenados na forma de matriz.
+3- 
+
+class Main {
+    public class vetores{
+	public static void main(String[] args){
+int vetor1[]={2,4,7,13,14,15,16};
+int vetor2[]={1,6,7,11,13,16,18};
+    int c []=uniao(vetor1,vetor2;)
+    system.out.printl(arrays.ToString(c));
+
+    public static int uniao[](vetor1[], vetor2[]){
+      int c[]=new int[vetor1.length+vetor2.length];
+    int k=0;
+    
+    for(int i=0;i<vetor1.length;i++){
+      c[k++]=vetor1[i];
+
+      for(int i=0;i<vetor2.length;i++){
+      c[k++]=vetor2[i];
+    }
+
+	}
+}
